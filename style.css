@@ -1,0 +1,22 @@
+nav > ul {
+    display:flex;
+}
+li{
+    list-style: none;  
+}
+li:hover{
+    background-color: brown;
+}
+li a{
+    text-decoration: none;
+ padding: 10px; 
+    font-size: large;
+    margin: 0px;
+}
+li ul{
+    display: none;
+}
+ li:hover > ul{
+display:block;
+ position: absolute; 
+} 
