@@ -1,0 +1,25 @@
+nav > ul{
+    display: flex;
+}
+nav > ul > li{
+    margin-right: 10px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+nav  ul  li:hover{
+    background-color: aquamarine;
+}
+.net{
+    display: none;
+}
+.net {
+    background-color: rgb(197, 213, 54);
+    
+   position: absolute;
+
+}
+nav li:hover > ul{
+    display: block;
+}
